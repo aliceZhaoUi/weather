@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Promo-Bold";
+    src: url("fonts/Promo-Bold.woff") format("woff");
+    /* Add more src declarations for different file formats if available */
+}
+
+@font-face {
+    font-family: "Promo-Med";
+    src: url("fonts/Promo-Med.woff") format("woff");
+    /* Add more src declarations for different file formats if available */
+}
+
+@font-face {
+    font-family: "FriendlyFont";
+    src: url("fonts/FriendlyFont.woff") format("woff");
+    /* Add more src declarations for different file formats if available */
+}
+
+@font-face {
+    font-family: "Open-Sans-Regular";
+    src: url("fonts/open-sans-cufonfonts-webfont/OpenSans-Regular.woff") format("woff");
+    /* Add more src declarations for different file formats if available */
+}
+
+@font-face {
+    font-family: "Open-Sans-Light";
+    src: url("fonts/open-sans-cufonfonts-webfont/OpenSans-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Open-Sans-SemiBold";
+    src: url("fonts/open-sans-cufonfonts-webfont/OpenSans-SemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Open-Sans-Bold";
+    src: url("fonts/open-sans-cufonfonts-webfont/OpenSans-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Open-Sans-ExtraBold";
+    src: url("fonts/open-sans-cufonfonts-webfont/OpenSans-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Open-Sans-CondBold";
+    src: url("fonts/open-sans-cufonfonts-webfont/OpenSans-CondBold.woff") format("woff");
+}

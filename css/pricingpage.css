@@ -1,0 +1,528 @@
+                        /* header */
+                        
+                        .pricing-header-background {
+                            height: 440px;
+                            width: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            color: white;
+                            /* background-color: rgb(24, 65, 87); */
+                            background-color: #184157;
+                            /* background-color: rgb(115, 150, 170); */
+                            background-size: cover;
+                            background-position: top;
+                            background-image: url(../images/mountains.svg);
+                        }
+                        
+                        .priceTitle {
+                            margin-top: 40px;
+                            text-align: center;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                        
+                        .priceTitle h2 {
+                            font-size: 32px;
+                            margin-bottom: 40px;
+                        }
+                        
+                        .priceTitle .button-list {
+                            width: 300px;
+                            height: 40px;
+                            position: relative;
+                            display: flex;
+                            justify-content: center;
+                            /* align-items: center; */
+                            border-radius: 5px;
+                            background-color: white;
+                        }
+                        
+                        .priceTitle button {
+                            width: 150px;
+                            line-height: 40px;
+                        }
+                        
+                        .priceTitle #monthly-button {
+                            background-color: #15394c;
+                            color: white;
+                            border-radius: 5px 0 0 5px;
+                        }
+                        
+                        .priceTitle ion-icon {
+                            font-size: 25px;
+                            --ionicon-stroke-width: 20px;
+                        }
+                        
+                        .priceTitle .monthly-icon {
+                            position: relative;
+                            top: 7px;
+                            right: 5px;
+                        }
+                        
+                        .priceTitle .yearly-icon {
+                            position: relative;
+                            top: 7px;
+                            right: 13px;
+                        }
+                        
+                        .priceTitle label {
+                            position: absolute;
+                            top: -15px;
+                            right: -15px;
+                            background-color: #8a9bae;
+                            width: 88px;
+                            height: 23px;
+                            font-size: 11px;
+                            line-height: 23px;
+                            border-radius: 3px;
+                        }
+                        /* main */
+                        
+                        .pricingPage main {
+                            position: relative;
+                            background-color: white;
+                        }
+                        /* price list */
+                        
+                        .pricelist-background {
+                            height: 713px;
+                            display: flex;
+                            justify-content: center;
+                        }
+                        
+                        .pricelist-container {
+                            position: absolute;
+                            top: -110px;
+                            display: flex;
+                            gap: 15px;
+                        }
+                        
+                        .pricelist-container .pricebox {
+                            width: 211px;
+                            height: 793px;
+                        }
+                        
+                        .pricelist-container .professional.pricebox {
+                            height: 813px;
+                            position: relative;
+                            top: -30px;
+                            /* border-right: #88898a solid; */
+                        }
+                        
+                        .pricelist-container .enterprise.pricebox {
+                            color: white;
+                            border-radius: 10px;
+                            background-color: #15394c;
+                        }
+                        
+                        .pricelist-container .topbox {
+                            width: 100%;
+                            height: 324px;
+                            background-color: #eff2f5;
+                            border-radius: 10px;
+                            text-align: center;
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                        .pricelist-container .free .bottombox,
+                        .pricelist-container .standard .bottombox,
+                        .pricelist-container .professional .bottombox {
+                            height: 445px;
+                            border-right: #dcdcdc 1px solid;
+                        }
+                        
+                        .pricelist-container .professional.pricebox .topbox {
+                            height: 354px;
+                            background-color: white;
+                            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                            /* Add a subtle drop shadow */
+                            transition: transform 0.2s ease-in-out;
+                            /* Add smooth transition */
+                        }
+                        
+                        .pricelist-container .enterprise.pricebox .topbox {
+                            background-color: #15394c;
+                            color: white;
+                        }
+                        
+                        .pricelist-container .topbox .popular-label {
+                            height: 30px;
+                            background-color: #15394c;
+                            color: white;
+                            font-size: 12px;
+                            line-height: 30px;
+                            border-radius: 5px 5px 0 0;
+                        }
+                        
+                        .pricelist-container .topbox .title {
+                            margin: 30px 0 15px 0;
+                            font-family: "Open-Sans-SemiBold";
+                            font-size: 17px;
+                            line-height: 35px;
+                        }
+                        
+                        .pricelist-container .topbox .title ion-icon {
+                            font-size: 30px;
+                            --ionicon-stroke-width: 24px;
+                            position: relative;
+                            top: 5px;
+                            right: 7px;
+                        }
+                        
+                        .pricelist-container .topbox p {
+                            margin: 14px 20px;
+                            height: 70px;
+                            font-family: "Open-Sans-Light";
+                            font-weight: bold;
+                            font-size: 12px;
+                            line-height: 20px;
+                        }
+                        
+                        .pricelist-container .topbox .monthly-price {
+                            height: 49px;
+                            margin-bottom: 40px;
+                        }
+                        
+                        .pricelist-container .topbox .monthly-price span {
+                            font-size: 20px;
+                            line-height: 35px;
+                            font-weight: bold;
+                        }
+                        
+                        .pricelist-container .standard .topbox .monthly-price .demical-part {
+                            font-size: 14px;
+                            font-family: "Open-Sans-SemiBold";
+                            position: relative;
+                            top: -8px;
+                            left: -2px;
+                            margin-right: 1px;
+                        }
+                        
+                        .pricelist-container .professional .topbox .monthly-price .demical-part,
+                        .pricelist-container .business .topbox .monthly-price .demical-part {
+                            font-size: 14px;
+                            font-family: "Open-Sans-SemiBold";
+                            position: relative;
+                            top: -8px;
+                            left: 1px;
+                        }
+                        
+                        .pricelist-container .professional .topbox .monthly-price .demical-part {
+                            margin-right: 4px;
+                        }
+                        
+                        .pricelist-container .enterprise .topbox .monthly-price h4 {
+                            font-family: "Open-Sans-Regular";
+                            font-size: 20px;
+                        }
+                        
+                        .pricelist-container .enterprise .topbox .monthly-price small {
+                            color: white;
+                        }
+                        
+                        .pricelist-container .topbox .yearly-price {
+                            font-size: 12px;
+                            color: #88898a;
+                        }
+                        
+                        .pricelist-container .topbox button {
+                            background-color: rgb(223, 225, 231);
+                            margin: 0 12px;
+                            height: 40px;
+                            border-radius: 3px;
+                        }
+                        
+                        .pricelist-container .free .topbox button a,
+                        .pricelist-container .standard .topbox button a,
+                        .pricelist-container .business .topbox button a {
+                            color: #9a9c9d;
+                        }
+                        
+                        .pricelist-container .professional .topbox button {
+                            background-color: #15394c;
+                        }
+                        
+                        .pricelist-container .enterprise .topbox button {
+                            background-color: rgb(255, 137, 27);
+                        }
+                        
+                        .pricelist-container .bottombox ul {
+                            margin-top: 25px;
+                            margin-left: 26px;
+                            list-style: none;
+                            font-family: "Open-Sans-Light";
+                            font-weight: bold;
+                            font-size: 14px;
+                            line-height: 1.4;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 7px;
+                        }
+                        
+                        .pricelist-container .bottombox ul ion-icon {
+                            font-size: 24px;
+                            --ionicon-stroke-width: 22px;
+                            position: relative;
+                            top: 6px;
+                            right: 8px;
+                        }
+                        
+                        .pricingPage .customer-logos-background,
+                        .questions-background {
+                            background-color: white;
+                        }
+                        /* customer logos */
+                        
+                        .pricingPage .customer-logos {
+                            box-sizing: border-box;
+                            padding: 0 35px 0 15px;
+                            width: 1140px;
+                            height: 84px;
+                            font-size: 17px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            gap: 15px;
+                            font-family: "Open-Sans-SemiBold";
+                            font-size: 14px;
+                            font-weight: 900;
+                        }
+                        /* weather data2 */
+                        
+                        .weather-data2-background {
+                            background-color: #eff2f5;
+                            width: 100%;
+                            height: 1434px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                        
+                        .weather-data2-container {
+                            /* box-sizing: border-box; */
+                            width: 1000px;
+                            /* padding: 0 15px; */
+                            margin-top: 45px;
+                        }
+                        
+                        .weather-data2-container .title {
+                            font-size: 24px;
+                            text-align: center;
+                            font-weight: 100;
+                        }
+                        
+                        .weather-data2-container .image-container {
+                            height: 250px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 40px;
+                            border-bottom: #d2d4d5 dashed 2px;
+                        }
+                        
+                        .weather-data2-container .image-container img {
+                            width: 380px;
+                        }
+                        
+                        .weather-data2-container .image-container .line2,
+                        .weather-data2-container .image-container .line4 {
+                            position: relative;
+                            left: -15px;
+                        }
+                        
+                        .weather-data2-container .image-container .line3 {
+                            position: relative;
+                            left: -45px;
+                        }
+                        
+                        .weather-data2-container .image-container label {
+                            background-color: #a9bacc;
+                            padding: 2px 5px;
+                            margin-right: 20px;
+                            font-family: "Open-Sans-Bold";
+                            font-size: 12px;
+                            border-radius: 2px;
+                        }
+                        
+                        .weather-data2-container .image-container .opacity1 {
+                            opacity: 0.7;
+                        }
+                        
+                        .weather-data2-container .image-container .opacity2 {
+                            opacity: 0.5;
+                        }
+                        
+                        .weather-data2-container .image-container .opacity3 {
+                            opacity: 0.6;
+                        }
+                        
+                        .weather-data2-container .image-container .opacity4 {
+                            opacity: 0.3;
+                        }
+                        
+                        .weather-data2-container .image-container .opacity5 {
+                            opacity: 0.2;
+                        }
+                        
+                        .item4,
+                        .item5,
+                        .item9,
+                        .item10,
+                        .item15,
+                        .item16,
+                        .item20,
+                        .item21,
+                        .item25,
+                        .item26 {
+                            color: transparent;
+                        }
+                        
+                        .weather-data2-container .image-container .labels-container {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 15px;
+                        }
+                        
+                        .weather-data2-container .featuresDetails-contaienr {
+                            margin-top: 30px;
+                        }
+                        /* questions */
+                        
+                        .feature-container {
+                            display: flex;
+                            justify-content: space-between;
+                            height: 128px;
+                            align-items: center;
+                        }
+                        
+                        .feature-container .details-container {
+                            display: flex;
+                        }
+                        
+                        .feature-container ion-icon {
+                            width: 100px;
+                            font-size: 64px;
+                            margin-right: 30px;
+                            color: #b2bcc8;
+                        }
+                        
+                        .feature-container .details {
+                            width: 500px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                        }
+                        
+                        .feature-container .details h4 {
+                            font-family: "Open-Sans-SemiBold";
+                            font-size: 16px;
+                        }
+                        
+                        .feature-container .includedIn {
+                            box-sizing: border-box;
+                            width: 220px;
+                            height: 70px;
+                            padding-left: 45px;
+                            border-left: #d4d6d8 dashed 2px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: flex-start;
+                            gap: 6px;
+                        }
+                        
+                        .feature-container .includedIn label {
+                            color: white;
+                            background: #34647e;
+                            padding: 2px 5px;
+                            border-radius: 3px;
+                            font-size: 12px;
+                            font-family: "Open-Sans-SemiBold";
+                        }
+                        
+                        .questions-background {
+                            width: 100%;
+                            height: 645px;
+                            display: flex;
+                            justify-content: center;
+                        }
+                        
+                        .questions-container {
+                            width: 1140px;
+                            box-sizing: border-box;
+                            padding: 30px 40px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                        }
+                        
+                        .questions-container h2 {
+                            text-align: center;
+                            font-size: 26px;
+                            font-weight: 100;
+                        }
+                        
+                        .questions-container h4 {
+                            margin-bottom: 10px;
+                            font-size: 16px;
+                            color: #adadaf;
+                            font-weight: 100;
+                        }
+                        
+                        .questions-container .question {
+                            box-sizing: border-box;
+                            width: 500px;
+                            padding: 10px 0;
+                            border-bottom: #cacbcc solid 1px;
+                            font-family: "Open-Sans-SemiBold";
+                            font-weight: 100;
+                            color: #323333;
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                        
+                        .questions-container .question ion-icon {
+                            font-size: 20px;
+                            color: #a2a3a4;
+                            --ionicon-stroke-width: 45px;
+                        }
+                        
+                        .questions-container .part1 {
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                        
+                        .questions-container .left {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                        }
+                        
+                        .questions-container .right {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                            /* gap: 15px; */
+                        }
+                        
+                        .questions-container .part2 {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-around;
+                        }
+                        
+                        .button-container a {
+                            color: #8a9bae;
+                            font-family: "Open-Sans-SemiBold";
+                        }
+                        
+                        .button-container ion-icon {
+                            font-size: 25px;
+                            color: #8a9bae;
+                            --ionicon-stroke-width: 20px;
+                            position: relative;
+                            top: 8px;
+                            margin-left: 10px;
+                        }

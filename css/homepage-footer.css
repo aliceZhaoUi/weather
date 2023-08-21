@@ -1,0 +1,86 @@
+footer {
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: "Open-Sans-Light";
+}
+
+.footer-container {
+    width: 1170px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    gap: 110px;
+}
+
+.footer-container section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-container .title ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-container .title ul li {
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    background-clip: border-box;
+    border: none;
+}
+
+.footer-container .title ul .github {
+    background-image: url(../images/github-original.svg);
+}
+
+.footer-container .title ul .facebook {
+    background-image: url(../images/facebook-original.svg);
+}
+
+.footer-container .title ul .instagram {
+    background-image: url(../images/instagram.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-container .title ul .youtube {
+    background-image: url(../images/youtube.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-container .title ul .twitter {
+    background-image: url(../images/twitter-original.svg);
+    background-repeat: no-repeat;
+}
+
+.footer-container .title ul .linkedin {
+    background-image: url(../images/linkedin-original.svg);
+}
+
+.footer-container section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-container .logo {
+    opacity: 0.5;
+}
+
+.rights-container {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.rights-container p {
+    margin-top: 15px;
+    font-size: 12px;
+}

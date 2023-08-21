@@ -1,0 +1,408 @@
+    main {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    /* backgrounds */
+    
+    .customer-logos-background,
+    .show-background,
+    .weather-data-background,
+    .logos2-background,
+    .sign-up-line-background {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .customer-logos-background {
+        background-color: rgb(241, 241, 241);
+    }
+    
+    .data-example-background {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #184157;
+        background-size: cover;
+        background-position: center;
+        background-image: url(../images/bg_waves_4.svg);
+    }
+    
+    .logos2-background {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .sign-up-line-background {
+        background-color: #eef2f5;
+        align-items: center;
+        height: 116px;
+    }
+    /* logo container */
+    
+    .customer-logos {
+        box-sizing: border-box;
+        padding: 0 15px;
+        width: 1170px;
+        height: 136px;
+        font-size: 17px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .customer-logos img {
+        max-width: 140px;
+        max-height: 50px;
+    }
+    /* show container */
+    
+    .show-container {
+        box-sizing: border-box;
+        width: 1140px;
+        padding: 18px 0;
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 6px;
+        background: rgb(241, 241, 241);
+    }
+    
+    .show-container .show {
+        box-sizing: border-box;
+        width: 250px;
+        height: 210px;
+        padding: 15px 15px;
+        border-radius: 6px;
+        background: rgb(226, 226, 226);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .show ion-icon {
+        margin-bottom: 10px;
+        width: 32px;
+        height: 32px;
+        --ionicon-stroke-width: 22px;
+    }
+    
+    .show h4 {
+        margin-bottom: 10px;
+        font-family: "Open-Sans-Regular";
+        font-size: 16px;
+    }
+    
+    .show p {
+        font-family: "Open-Sans-Light";
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: bold;
+    }
+    /* data container */
+    
+    .weather-data-container {
+        box-sizing: border-box;
+        width: 1170px;
+        margin: 25px 0 65px 0;
+        padding: 0 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .weather-data-container .left-container {
+        width: 440px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: "Open-Sans-Light";
+        font-size: 15px;
+        font-weight: bolder;
+        line-height: normal;
+    }
+    
+    .left-container h4 {
+        font-weight: lighter;
+        font-size: 25px;
+        line-height: normal;
+    }
+    
+    .left-container .data-list {
+        list-style: none;
+        /* font-size: 16px; */
+        line-height: 38px;
+    }
+    
+    .data-list li {
+        display: flex;
+        align-items: center;
+    }
+    
+    .data-list ion-icon {
+        /* width: 28px;
+    height: 28px; */
+        margin-right: 10px;
+        font-size: 29px;
+        --ionicon-stroke-width: 19px;
+    }
+    
+    .weather-data-container img {
+        width: 635px;
+    }
+    /* data example contaienr*/
+    
+    .data-example-container {
+        box-sizing: border-box;
+        padding-top: 30px;
+        width: 650px;
+        /* height: 1348px; */
+        color: white;
+        text-align: center;
+    }
+    
+    .data-example-container .example-button {
+        margin-bottom: 30px;
+        width: 100px;
+        height: 40px;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+    }
+    
+    .data-example-container h2 {
+        margin-bottom: 15px;
+        font-family: "Open-Sans-SemiBold";
+        font-size: 24px;
+    }
+    
+    .data-example-container h4 {
+        margin-bottom: 40px;
+        font-family: "Open-Sans-Light";
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .data-example-container .button-list {
+        margin-bottom: 20px;
+        height: 56px;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 5px;
+        background-color: white;
+    }
+    
+    .data-example-container .button-list button {
+        width: 100%;
+        font-family: "Open-Sans-Regular";
+        font-size: 14px;
+        font-weight: 100;
+        border: solid rgb(218, 217, 217);
+    }
+    
+    .data-example-container .button-list .button1 {
+        background-color: rgb(255, 137, 27);
+        border: rgb(255, 137, 27);
+        border-radius: 5px;
+    }
+    
+    .data-example-container .button-list .button2 {
+        border: transparent;
+    }
+    
+    .button2 a,
+    .button3 a {
+        color: rgb(53, 53, 53);
+    }
+    
+    .code-container {
+        height: 732px;
+        background-color: #17202a;
+        border-radius: 5px;
+        text-align: left;
+        line-height: 18px;
+        color: rgb(218, 169, 23);
+    }
+    
+    .code-container pre {
+        font-weight: 100;
+    }
+    
+    .code-container pre span {
+        color: #009e4d;
+    }
+    /* data label contaienr*/
+    
+    .data-labels-container {
+        margin: 40px;
+        width: 1140px;
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 15px;
+    }
+    
+    .data-label {
+        box-sizing: border-box;
+        padding: 5px 20px;
+        width: 370px;
+        height: 132px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+    }
+    
+    .data-label label {
+        font-size: 15px;
+        line-height: 35px;
+    }
+    
+    .data-label p {
+        line-height: 20px;
+    }
+    /*  logos2 container */
+    
+    .logos2-background h4 {
+        font-size: 25px;
+        font-weight: 100;
+    }
+    
+    .logos2-background p {
+        font-family: "Open-Sans-Light";
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    
+    .logos2-container {
+        margin-top: 45px;
+        box-sizing: border-box;
+        padding: 0 15px;
+        width: 1170px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 14px;
+        list-style: none;
+    }
+    
+    .logos2-container li {
+        width: 250px;
+        height: 100px;
+        border-radius: 5px;
+    }
+    
+    .logos2-container .daimler {
+        background-color: #263e6a;
+        background-image: url("../images/client_white_daimler.svg");
+        background-repeat: no-repeat;
+        background-size: 175px;
+        background-position: center;
+    }
+    
+    .logos2-container .deloitte {
+        background-color: #eef2f5;
+        background-image: url("../images/client_deloitte.svg");
+        background-repeat: no-repeat;
+        background-size: 150px;
+        background-position: center;
+    }
+    
+    .logos2-container .ericsson {
+        width: 134px;
+        background-color: #01275b;
+        background-image: url("../images/client_white_ericsson_2.svg");
+        background-repeat: no-repeat;
+        background-size: 65px;
+        background-position: center;
+    }
+    
+    .logos2-container .microsoft {
+        background-color: #eef2f5;
+        background-image: url("../images/client_microsoft.svg");
+        background-repeat: no-repeat;
+        background-size: 175px;
+        background-position: center;
+    }
+    
+    .logos2-container .schneidor {
+        width: 200px;
+        background-color: #009e4d;
+        background-image: url("../images/client_white_schneider.svg ");
+        background-repeat: no-repeat;
+        background-size: 160px;
+        background-position: center;
+    }
+    
+    .logos2-container .warnerbros {
+        width: 190px;
+        background-color: #027ac2;
+        background-image: url("../images/client_white_warnerbros.svg ");
+        background-repeat: no-repeat;
+        background-size: 65px;
+        background-position: center;
+    }
+    
+    .logos2-container .wawa {
+        width: 250px;
+        background-color: #ee2e25;
+        background-image: url("../images/client_white_wawa.svg ");
+        background-repeat: no-repeat;
+        background-size: 110px;
+        background-position: center;
+    }
+    
+    .logos2-container .canda {
+        width: 134px;
+        background-color: #eef2f5;
+        background-image: url("../images/client_canda.svg ");
+        background-repeat: no-repeat;
+        background-size: 90px;
+        background-position: center;
+    }
+    
+    .logos2-container .mckinsey {
+        width: 260px;
+        background-color: #23477f;
+        background-image: url("../images/client_mckinsey.svg ");
+        background-repeat: no-repeat;
+        background-size: 249px;
+        background-position: center;
+    }
+    
+    .logos2-container .rimowa {
+        width: 250px;
+        background-color: #eef2f5;
+        background-image: url("../images/client_rimowa.svg ");
+        background-repeat: no-repeat;
+        background-size: 155px;
+        background-position: center;
+    }
+    /* sign up line background */
+    
+    .sign-up-line-background div {
+        font-family: "Open-Sans-Semibold";
+        font-size: 16px;
+    }
+    
+    .sign-up-line-background ion-icon {
+        margin-left: 15px;
+        font-size: 22px;
+        --ionicon-stroke-width: 16px;
+    }
+    
+    .sign-up-line-background button {
+        box-sizing: border-box;
+        margin-left: 20px;
+        padding: 15px 17px;
+        background-color: rgb(255, 137, 27);
+        color: white;
+        border-radius: 3px;
+    }
